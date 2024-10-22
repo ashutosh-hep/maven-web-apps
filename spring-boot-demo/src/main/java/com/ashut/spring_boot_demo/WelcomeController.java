@@ -12,7 +12,7 @@ public class WelcomeController {
 	@GetMapping("/welcome")
 	public String welcome(Model model) {
 		
-		model.addAttribute("message","Hello World !");
+		model.addAttribute("message","Hello World with jenkins !");
 		return "welcome";
 	}
 
